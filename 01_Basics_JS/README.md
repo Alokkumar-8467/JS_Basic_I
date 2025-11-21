@@ -92,3 +92,44 @@ console.log(c)
 var c = 6;
 ```
 
+## 🔥 HOISTING
+Basically in JS when we declare any varaible, it basically into two parts.
+
+1. Declaration part goes at top, and 
+2. Initialization part remains at bottom.
+
+    
+##### Supose we made a vaiable in VAR
+
+    This Happen in VAR not with LET and CONST
+    var a = 12;
+
+    var a = undefined;  this declaration part goes up
+    a = 12; this initilization part remain stay at bottom
+
+    this done by compiler.
+
+    so when we do this operation like 
+
+    console.log(a)
+    var a = 12;
+    andit give undefined for VAR. Why??????
+
+    It work like
+
+    ```
+
+    the JS compiler auto do this
+    var a = undefined; 
+
+    console.log(a)
+    so we get a as "UNDEFINED"
+
+    now here we initilized the var so,
+    var a = 12;
+
+    console.log(a);
+    it give 12 not undefined.
+
+    ```` 
+
