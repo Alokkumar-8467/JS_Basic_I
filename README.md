@@ -62,3 +62,33 @@ console.log(x); // ✅ 5
 console.log(y); // ❌ ReferenceError
 console.log(z); // ❌ ReferenceError
 ```
+
+
+## 🔥 Temporal Dead Zone
+
+#### For let and const 
+
+For let and const JS know that variable exist but not have access to handle. 
+
+It give Uncaught ReferenceError
+Cannot access 'a' before initialization
+
+```
+console.log(a)
+let a = 12; 
+```
+
+Cannot access 'b' before initialization
+```console.log(b)
+const b = 10;
+```
+
+#### For VAR
+
+##### But for var it give undefined
+Basically it use concept of HOSTING
+```
+console.log(c)
+var c = 6;
+```
+
