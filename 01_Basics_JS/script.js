@@ -210,6 +210,16 @@ var x = 1;
 console.log(x);
 // we get 2 because var ignore block scope
 
+// Q4.
+let y = 10;
+{
+  let y = 20;
+  console.log("inside:", y);
+}
+
+console.log("Outside:", y);
+// we get inside:20 and Outside:10 because let follow block scope
+
 
 
 
