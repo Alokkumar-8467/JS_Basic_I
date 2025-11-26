@@ -202,4 +202,14 @@ console.log(age);
 let age = 24;
 /* we get error "Cannot access 'age' before initialization" */
 
+// Q3.
+var x = 1;
+{
+  var x = 2;
+}
+console.log(x);
+// we get 2 because var ignore block scope
+
+
+
 
