@@ -1,7 +1,6 @@
 // Variables & Declarations
 
-
-// var let const 
+// var let const
 
 // 1. To create a variable we have varous methods
 
@@ -20,14 +19,14 @@ var a = 12;
 // 2. Declarations and initialization of VAR
 
 // for var
-var a;  // declare karna
+var a; // declare karna
 var a = 12; // decalre and initialize
 
 // 2.1 var window ma add hota hai
 
 // 2.2 function scoped hota hai
-function abc () {
-  if(true){
+function abc() {
+  if (true) {
     var a = 12;
   }
 }
@@ -37,7 +36,6 @@ function abc () {
 
 // 2.3 var redeclared and no error arises.
 var a = 13;
-
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
@@ -57,9 +55,7 @@ let a = 13;
 const dis = 12;
 // we can't change or reDeclare the CONST value
 
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
 
 // 4. Scope in Js
 
@@ -67,13 +63,13 @@ const dis = 12;
 
 // 4.1 Scope for VAR, CONST and LET
 
-// if we write 
+// if we write
 // var a = 123, let a = 34, const a = 45, then it is Global Scope.
 // then it use in whole program.
 
 // if we use block scope like that
 
-// for var 
+// for var
 // < it ignore block scope and work as global >
 // and why it happen because var is functional scoped and when our JS code file run, so for that file it is work as function, thats why var not follow block.
 // {
@@ -82,10 +78,10 @@ const dis = 12;
 
 // for CONST and LET it follow block {}
 
-// Now Functional scope 
+// Now Functional scope
 // Now for VAR, CONST and LET that variable has onlt access to that function
 function abc() {
-  if(true){
+  if (true) {
     var c = 12;
     const a = 12;
     let x = 100;
@@ -94,31 +90,30 @@ function abc() {
 
 // Basically LET and CONST follow block scope but var ignore block scope
 
-function as(){
+function as() {
   var d = 34;
   const a = 23;
   let c = 56;
-  if(true){
+  if (true) {
     const w = a;
-    console.log("Print a", a)
+    console.log("Print a", a);
   }
-  console.log("Print a", a)
+  console.log("Print a", a);
 }
-
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 // Temporal Dead Zone
 
-// For let and const 
+// For let and const
 
-// For let and const JS know that variable exist but not have access to handle. 
+// For let and const JS know that variable exist but not have access to handle.
 
 // it give Uncaught ReferenceError
 // Cannot access 'a' before initialization
 
 // console.log(a)
-let a = 12; 
+let a = 12;
 
 // Cannot access 'b' before initialization
 // console.log(b)
@@ -128,8 +123,49 @@ const b = 10;
 
 // but for var it give undefined
 // Basically it use concept of HOSTING
-console.log(c)
+console.log(c);
 var c = 6;
 
+// HOISTING
+/* Basically in JS when we declare any varaible,
+    it basically divided into two parts
+    Declaration part goes at top, and 
+    initialization part remains at bottom.
+
+    
+    ## Supose we made a vaiable in VAR
+
+    This Happen in VAR not with LET and CONST
+    var a = 12;
+
+    var a = undefined;  this declaration part goes up
+    a = 12; this initilization part remain stay at bottom
+
+    this done by compiler.
+
+    so when we do this operation like 
+
+    console.log(a)
+    var a = 12;
+    andit give undefined for VAR. Why??????
+
+    It work like
+
+    ```
+
+    the JS compiler auto do this
+    var a = undefined; 
+
+    console.log(a)
+    so we get a as "UNDEFINED"
+
+    now here we initilized the var so,
+    var a = 12;
+
+    console.log(a);
+    it give 12 not undefined.
 
 
+    ````
+
+*/
