@@ -164,8 +164,27 @@ var c = 6;
 
     console.log(a);
     it give 12 not undefined.
-
-
     ````
 
+    Now for LET and CONST
+
+    when we do this operation like  
+    console.log(b)
+    let b = 10; 
+    it give error "Cannot access 'b' before initialization"
+
+    why??????
+    because for LET and CONST only declaration part goes up but not initialization part.
+
+    so when we do this operation like
+    let b;  // only declaration part goes up
+    console.log(b)
+    so it give error "Cannot access 'b' before initialization"  
+
+    Basically for 
+    VAR ==>  hoist ==> undefined
+    LET ==> hoist ==> error "Cannot access 'b' before initialization
+    CONST ==> hoist ==> error "Cannot access 'b' before initialization
+
 */
+
