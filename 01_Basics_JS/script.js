@@ -192,6 +192,14 @@ var c = 6;
 
 // Practice Problems
 
+// Q1.
 console.log(nm);
 var nm = "Alok"
+/* we get undefined */
+
+// Q2.
+console.log(age);
+let age = 24;
+/* we get error "Cannot access 'age' before initialization" */
+
 
