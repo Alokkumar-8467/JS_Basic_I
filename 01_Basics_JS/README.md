@@ -163,8 +163,8 @@ LET ==> hoist ==> error "Cannot access 'b' before initialization
 CONST ==> hoist ==> error "Cannot access 'b' before initialization
 
 
-# Practice Problems
 
+# Practice Problems
 
 ```
 Q1.
@@ -173,6 +173,34 @@ var nm = "Alok"
 we get undefined
 ```
 
+```
+Q2.
+console.log(age);
+let age = 24;
+/* we get error "Cannot access 'age' before initialization" */
+```
+
+```
+Q3.
+var x = 1;
+{
+  var x = 2;
+}
+console.log(x);
+we get 2 because var ignore block scope
+```
+
+```
+Q4.
+let y = 10;
+{
+  let y = 20;
+  console.log("inside:", y);
+}
+
+console.log("Outside:", y);
+// we get inside:20 and Outside:10 because let follow block scope
+```
 
 
 
