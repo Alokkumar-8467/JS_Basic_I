@@ -20,4 +20,5 @@ if we change ant value in "a" then it change in "b" also.
 if we change in "b" then it change in "a"  also.
 
 '' - single quotes
+"" - double quotes
 
