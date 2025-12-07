@@ -4,4 +4,4 @@ Ex = string, number, boolean, null, undefined, symbol, bigint
 // reference => inko copy karan par real copy nahi milegi but reference milega parent ka
 Ex = arrays, objects, functions
 
-
+For Ex
