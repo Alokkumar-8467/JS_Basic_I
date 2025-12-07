@@ -2,7 +2,7 @@
 Ex = string, number, boolean, null, undefined, symbol, bigint
 
 // reference => inko copy karan par real copy nahi milegi but reference milega parent ka
-Ex = arrays, objects{}, functions()
+Ex = arrays[], objects{}, functions()
 
 For Ex
 let a = 12;
@@ -11,5 +11,6 @@ let b = a;
 a = a = 2;
 
 now a = 14 but b = 12;
+
 
 
