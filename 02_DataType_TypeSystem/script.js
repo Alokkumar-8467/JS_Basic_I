@@ -6,3 +6,4 @@ Ex = arrays, objects, functions
 
 For Ex
 let a = 12;
+let b = a;
