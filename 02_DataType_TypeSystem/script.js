@@ -5,3 +5,4 @@ Ex = string, number, boolean, null, undefined, symbol, bigint
 Ex = arrays, objects, functions
 
 For Ex
+let a = 12;
