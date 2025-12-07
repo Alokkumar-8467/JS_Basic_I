@@ -21,4 +21,4 @@ if we change in "b" then it change in "a"  also.
 
 '' - single quotes
 "" - double quotes
-
+`` - backticks
