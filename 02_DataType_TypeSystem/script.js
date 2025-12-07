@@ -7,3 +7,7 @@ Ex = arrays, objects, functions
 For Ex
 let a = 12;
 let b = a;
+
+a = a = 2;
+
+now a = 14 but b = 12;
