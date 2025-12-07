@@ -16,6 +16,7 @@ let a = [12, 23, 45, 67]
 
 let b = a;
 
+if we change ant value in "a" then it change in "b" also. 
 
 
 
