@@ -45,4 +45,7 @@ We madea variable but not assign any value.
 let a;
 So it become "a" as undefined.
 
+6. Symbol 
+
+
 
