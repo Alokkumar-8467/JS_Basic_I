@@ -38,7 +38,7 @@ let b = false;
 
 4. Null
 When nothing assign.
-
+let a = null;
 
 
 
