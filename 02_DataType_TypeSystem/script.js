@@ -23,10 +23,13 @@ if we change in "b" then it change in "a"  also.
 "" - double quotes
 `` - backticks
 
-For Strings 
+1. Strings 
 If we write anything inside '', "" and `` then it is String.
 For Example = 'Anil' "Anil"  and `Anil`
 
+2. Numbers
+  12 = integer
+  12.3 = number
 
 
 
