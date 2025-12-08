@@ -36,7 +36,8 @@ For Example
 let a = true;
 let b = false;
 
-
+4. Null
+When nothing assign.
 
 
 
