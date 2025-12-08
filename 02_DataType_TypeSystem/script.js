@@ -52,7 +52,7 @@ let u1 = symbol("uid");
 let u2 = symbol("uid");
 
 id u1 and u2 is same 
-
+No, u1 and u2 have same value but different types.
 
 
 
