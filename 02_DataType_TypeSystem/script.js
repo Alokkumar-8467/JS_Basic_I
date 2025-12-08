@@ -31,6 +31,7 @@ For Example = 'Anil' "Anil"  and `Anil`
   12 = integer
   12.3 = number
 
+3. Boolean
 
 
 
