@@ -40,6 +40,8 @@ let b = false;
 When nothing assign.
 let a = null;
 
-
-
+5. undefined
+We madea variable but not assign any value.
+  let a;
+So it become "a" as undefined.
 
