@@ -34,7 +34,7 @@ For Example = 'Anil' "Anil"  and `Anil`
 3. Boolean
 For Example
 let a = true;
-  
+let b = false;
 
 
 
