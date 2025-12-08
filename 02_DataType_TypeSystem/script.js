@@ -58,4 +58,7 @@ u1 == u2 gives true
 but u1 === u2 gives false
 
 7. BigInt
-
+Integer has limit, we can check by using Number.MAX_SAFE_INTEGER
+But, what if i want more bigger number.
+So we use BIGINT
+like a = 1234567890123456n
