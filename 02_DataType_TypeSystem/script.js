@@ -32,6 +32,7 @@ For Example = 'Anil' "Anil"  and `Anil`
   12.3 = number
 
 3. Boolean
+For Example = let a = true;
 
 
 
