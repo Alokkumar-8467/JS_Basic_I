@@ -48,5 +48,9 @@ So it become "a" as undefined.
 6. Symbol 
 It create a unique immutable value.
 
+let u1 = symbol("uid");
+
+
+
 
 
