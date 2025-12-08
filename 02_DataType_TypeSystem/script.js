@@ -25,7 +25,8 @@ if we change in "b" then it change in "a"  also.
 
 For Strings 
 If we write anything inside '', "" and `` then it is String.
-For Example = 'Anil' "Anil"
+For Example = 'Anil' "Anil"  and `Anil`
+
 
 
 
