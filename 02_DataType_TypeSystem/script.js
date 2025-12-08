@@ -49,6 +49,9 @@ So it become "a" as undefined.
 It create a unique immutable value.
 
 let u1 = symbol("uid");
+let u2 = symbol("uid");
+
+id u1 and u2 is same 
 
 
 
