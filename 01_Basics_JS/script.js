@@ -1,3 +1,7 @@
+// Word and keyword
+
+// Keyword are special words have some particular function to perform particular task
+
 // Variables & Declarations
 
 // var let const
